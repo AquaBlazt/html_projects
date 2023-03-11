@@ -5,6 +5,7 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: #444;
 }
 
 h1,
@@ -69,3 +70,55 @@ li {
 .related-post-list {
   list-style: none;
 }
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  border-left: 5px solid #1098ad;
+  border-right: 5px solid #1098ad;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+/* li:nth-child(even) {
+   color: red; 
+} */
+
+/* This wont work */
+/* article p:last-child {
+  color: red;
+} */
+
+/* styling hyperlinks */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline dotted orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+/* always use that order for styling pseudo classes */
