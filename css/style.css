@@ -1,0 +1,54 @@
+/* index style */
+h1 {
+  font-size: 28px;
+  color: blue;
+  text-transform: uppercase;
+  font-style: italic;
+  background-color: antiquewhite;
+  text-align: center;
+}
+#price {
+  font-size: 30px;
+}
+
+.text {
+  font-style: italic;
+}
+
+a:link {
+  color: rgb(226, 43, 43);
+}
+
+a:hover {
+  color: rgb(84, 194, 0);
+  text-decoration: underline wavy orangered;
+}
+
+body {
+  font-family: sans-serif;
+  border: 5px solid black;
+  line-height: 1.4;
+}
+
+.details-list {
+  list-style: square;
+}
+
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.add-cart {
+  background-color: black;
+  border: none;
+  color: aqua;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.add-cart:hover {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
