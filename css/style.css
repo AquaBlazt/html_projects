@@ -1,6 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   color: #444;
   font-family: sans-serif;
+}
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 40px;
+  height: 80px;
+}
+
+.post-header {
+  margin-bottom: 40px;
+}
+
+article {
+  margin-bottom: 60px;
 }
 
 h1,
@@ -17,10 +36,13 @@ h1 {
 
 h2 {
   font-size: 40px;
+  padding-bottom: 40px;
 }
 
 h3 {
   font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 h4 {
@@ -32,8 +54,14 @@ h4 {
 
 p {
   font-size: 22px;
-
+  margin-bottom: 15px;
   line-height: 1.5;
+}
+
+ul,
+li {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 li {
@@ -66,11 +94,8 @@ li {
   list-style: none;
 }
 
-.main-header {
-  background-color: #f7f7f7;
-}
-
 aside {
+  width: 500px;
   background: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
@@ -114,6 +139,11 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
+}
+
+.post-img {
+  width: 50%;
+  height: auto;
 }
 
 /* always use that order for styling pseudo classes */
