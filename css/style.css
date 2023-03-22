@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  color: #454545;
+  font-family: sans-serfi;
+}
+
+.main-header {
+  text-align: center;
+  padding-bottom: 300px;
+}
+
+h1 {
+  padding: 15px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+h2 {
+  padding: 15px;
+  font-size: 25px;
+}
+
+.form-container {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px 15px;
+  text-align: center;
+  width: 500px;
+  margin-left: 35%;
+  border-radius: 30px;
+}
+
+.form-inicio {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  background: #dbf6f4;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.form-pass {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  background: #dbf6f4;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.form-btn {
+  text-transform: uppercase;
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 17px;
+  margin: 8px 0;
+  background: #31bee1;
+  color: #454545;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.form-container form .form-btn:hover {
+  background: rgb(8, 0, 255);
+  color: #ffffff;
+}
+
+#registro {
+  font-style: italic;
+  font-weight: bold;
+}
