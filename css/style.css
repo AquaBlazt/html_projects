@@ -16,11 +16,6 @@ h1 {
   font-size: 30px;
 }
 
-.container {
-  width: 700px;
-  margin: 0 auto;
-}
-
 .shipping {
   padding-bottom: 20px;
 }
@@ -38,8 +33,12 @@ a:hover {
 
 body {
   font-family: sans-serif;
-  border: 5px solid black;
-
+  width: 500px;
+  background: #f7f7f7;
+  border-top: 5px solid #000000;
+  border-bottom: 5px solid #000000;
+  border-left: 5px solid #000000;
+  border-right: 5px solid #000000;
   line-height: 1.4;
 }
 
