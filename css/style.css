@@ -12,6 +12,12 @@ h1 {
   background-color: antiquewhite;
   text-align: center;
 }
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
 #price {
   font-size: 30px;
 }
