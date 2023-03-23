@@ -10,15 +10,22 @@
   <body>
     <div class="container">
       <div class="form-container">
-        <form action="">
+        <form action="php/login.php" method="post">
           <h1>Inicio de sesion</h1>
-          <input type="text" required placeholder="Usuario" class="field" />
+          <input
+            type="text"
+            required
+            placeholder="Usuario"
+            class="field"
+            name="username"
+          />
 
           <input
             type="password"
             required
             placeholder="Contraseña"
             class="field"
+            name="password"
           />
 
           <button type="submit" class="form-btn">Iniciar sesion</button>
