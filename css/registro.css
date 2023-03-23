@@ -65,20 +65,21 @@ h2 {
 
 /* ESTILO DE BOTONES */
 .form-btn {
-  background: #fbd0d9;
-  color: crimson;
+  background-color: #4caf50;
+  color: white;
   text-transform: capitalize;
   font-size: 20px;
   cursor: pointer;
+  transition-duration: 0.4s;
   width: 100%;
   padding: 10px 15px;
   border-radius: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .form-container form .form-btn:hover {
-  background: crimson;
-  color: #fff;
+  background-color: #5dd55b;
+  color: white;
 }
 
 /* ESTILO DE BOTONES */
